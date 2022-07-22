@@ -1,11 +1,11 @@
 CXXFLAGS=-g -std=c++20
 LDLIBS=-lstdc++
 
-objects = binarysearch.o test.o selectionsort.o
+objects = binarysearch.o test.o selectionsort.o factorial_recurse.o
 output = $(basename $(objects))
 
 all: $(output) $(objects)
-	
+
 .PHONY: clean
 clean:
 	-rm $(objects) $(output)
