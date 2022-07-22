@@ -2,7 +2,7 @@ CXXFLAGS=-g -std=c++20
 LDLIBS=-lstdc++
 
 objects = binarysearch.o test.o selectionsort.o factorial_recurse.o \
-          sum_recurse.o count_recurse.o max_recurse.o
+          sum_recurse.o count_recurse.o max_recurse.o quicksort.o
 
 output = $(basename $(objects))
 
