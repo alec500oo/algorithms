@@ -3,7 +3,7 @@ LDLIBS=-lstdc++
 
 objects = binarysearch.o test.o selectionsort.o factorial_recurse.o \
           sum_recurse.o count_recurse.o max_recurse.o quicksort.o \
-		  breadthfirstsearch.o dijkstras.o
+		  breadthfirstsearch.o dijkstras.o setcovering.o
 
 output = $(basename $(objects))
 
