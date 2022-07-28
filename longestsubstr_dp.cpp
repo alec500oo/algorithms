@@ -1,4 +1,4 @@
-/* longestsubseq_dp.cpp */
+/* longestsubstr_dp.cpp */
 
 #include <algorithm>
 #include <iostream>
