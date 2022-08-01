@@ -4,7 +4,7 @@ LDLIBS=-lstdc++
 objects = binarysearch.o test.o selectionsort.o factorial_recurse.o \
           sum_recurse.o count_recurse.o max_recurse.o quicksort.o \
 		  breadthfirstsearch.o dijkstras.o setcovering.o longestsubseq_dp.o \
-		  longestsubstr_dp.o knapsack_dp.o
+		  longestsubstr_dp.o knapsack_dp.o heap.o
 
 output = $(basename $(objects))
 
